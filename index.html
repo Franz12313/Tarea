@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo de Pago</title>
+</head>
+<body>
+    <h1>Pagar con PayPal</h1>
+    <div id="paypal-button-container"></div>
+    <script src="https://www.paypal.com/sdk/js?client-id=ATcGM_clKRV14LD_MZppgVxSnX63jlPFW8tdBOZZOVKqiZONrMq7DXzfal5nlwrm53_alS78PG3--vNj"></script>
+    <script>
+        paypal.Buttons().render('#paypal-button-container');
+    </script>
+</body>
+</html>
